@@ -1,0 +1,23 @@
+Atributo para ocultar
+hiden
+
+<form accion="" method="post">
+
+Atributos del form, es buena practica poner siempre una accion que es la URL donde se envía la respuesta del formulario
+
+Method: método HTTP que se usará al enviar el formulario
+
+Name: nombre del formulario
+
+
+Method "post", cuando se envia la informacion al servidor, no nos va a mostar las variables que viajan
+
+Method "get"
+
+type="submit"  value="Enviar"
+
+
+Agregando el atributo name, se ve en la url las variables enviadas por input
+Con el metodo get eso se ve la la url
+Con el metodo post esto no se ve
+Si se trabaja con contraseñas, no se debe usar get

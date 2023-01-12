@@ -1,0 +1,14 @@
+https://www.w3schools.com/html/html5_audio.asp
+
+Formatos soportados de audio:
+
+mp3
+wav
+ogg
+
+
+Insertar video de youtube
+
+opcion compartir y luego insertar
+
+
