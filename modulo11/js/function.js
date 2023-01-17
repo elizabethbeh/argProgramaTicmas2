@@ -5,6 +5,7 @@ let numero2 = 4;
 
 let resultado = numero1+numero2;
 
+/** 
 console.log("La suma de numero1 y numero2 es: "+ resultado)
 
 document.getElementById('boton').onclick = function() {
@@ -13,6 +14,39 @@ document.getElementById('boton').onclick = function() {
 
 }
 
+
 document.addEventListener('click', function() {
+    console.log("Hola mundo desde EventListener");
+    document.getElementById("demo").innerHTML= "Estamos probando nuestro primer evento"
     
+});
+
+*/
+
+
+document.getElementById('boton').addEventListener('click', function() {
+    console.log("Hola mundo desde EventListener");
+    document.getElementById("demo").innerHTML= "Estamos probando nuestro primer evento"
+    
+});
+
+
+document.getElementById('boton_color').addEventListener('click', function() {
+    document.body.style.backgroundColor = '#FF0000'; 
+});
+
+document.getElementById('boton_default').addEventListener('click', function() {
+    document.body.style.backgroundColor = 'blue'; 
+});
+
+document.getElementById('boton_ocultar').addEventListener('click', function() {
+    document.getElementById('demo').style.display = 'none'; 
+});
+
+
+
+
+const collection = document.getElementsByClassName('parrafo');
+for (let i = 0; i < collection.length; i++){
+    collection[i].style.backgroundColor = "yellow";
 }
