@@ -8,7 +8,22 @@
     <body>
     <h1>JSON</h1>
     <p>JSON es un formato de texto para almacenar y transportar datos de forma ligera</p>
+
     
+    
+    <h2>Creating an Object from a JSON String</h2>
+    <link src="https://www.w3schools.com/js/tryit.asp?filename=tryjson_parse"> min3
+
+    <p id="demo"></p>
+    
+    <script>
+        const txt = '{"name":"John", "age":30, "city":"New York"}'
+        const obj = JSON.parse(txt);
+        document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
+    </script>
+
+
+
 
     </body>
 </html>
